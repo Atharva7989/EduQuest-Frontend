@@ -1,0 +1,247 @@
+/* General Button Styles */
+.feedback-btn,
+.certificate-btn,
+.quiz-form button,
+.feedback-form button {
+  padding: 12px 20px;
+  background-color: #6f36a8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.feedback-btn:hover,
+.feedback-form button:hover {
+  background-color: #5e2b8a;
+  transform: translateY(-2px);
+}
+
+.certificate-btn {
+  background-color: #0a3d62;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.certificate-btn:hover {
+  background-color: #1e70b8;
+}
+
+/* Feedback Form */
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.feedback-form textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  min-height: 150px;
+  font-size: 16px;
+}
+
+/* Lecture Page Layout */
+.lecture-page {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 80vh;
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+}
+
+.lecture-page h1 {
+  width: 100%;
+  text-align: center;
+  color: #6f36a8;
+  margin-bottom: 20px;
+}
+
+.left {
+  flex: 1 1 65%;
+  background-color: #eaeaea;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.right {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Lecture Form */
+.lecture-form {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.lecture-form h2 {
+  color: #8a4baf;
+  margin-bottom: 20px;
+}
+
+.lecture-form form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.lecture-form form input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+/* Lecture Number Styles */
+.lecture-number {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #8a4baf;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lecture-number:hover,
+.lecture-number.active {
+  background-color: #8a4baf;
+  color: white;
+}
+
+/* Progress Bar */
+.progress {
+  width: 20%;
+  background-color: #8224d4;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  margin: 15px auto;
+  font-weight: 500;
+}
+
+/* Responsive Progress */
+@media (max-width: 1024px) {
+  .progress {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .progress {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .progress {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+
+/* Native Progress Styling */
+progress {
+  width: 100%;
+  height: 12px;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  margin-top: 5px;
+}
+
+progress::-webkit-progress-bar,
+progress::-webkit-progress-value,
+progress::-moz-progress-bar {
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: white;
+}
+
+progress::-moz-progress-bar {
+  background-color: white;
+}
+
+/* Quiz Form */
+.quiz-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.quiz-form h2 {
+  font-size: 24px;
+  color: #8a4baf;
+  margin-bottom: 20px;
+}
+
+.quiz-form form {
+  text-align: left;
+}
+
+.quiz-form label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+  display: block;
+}
+
+.quiz-form input[type="text"],
+.quiz-form input[type="file"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.delete-icon {
+  padding-left: 20px;
+}
+
+
+.lecture-summary {
+  background-color: #ffffff;
+  border: 5px solid #8a4baf;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.lecture-summary h3 {
+  color: #6f36a8;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.lecture-summary p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  white-space: pre-wrap;
+}

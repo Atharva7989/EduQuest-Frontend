@@ -1,0 +1,126 @@
+.users {
+    width: 1050px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px auto;
+    margin-left:60px ;
+    min-height: 80vh;
+    /* border: solid gray 1px; */
+  }
+
+  table {.users {
+    width: 90%;
+    max-width: 1050px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px auto;
+    min-height: 80vh;
+    padding: 10px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  thead {
+    background: #007bff;
+    color: white;
+    text-align: left;
+  }
+  
+  thead td {
+    padding: 12px;
+    font-weight: bold;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background: #f1f1f1;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Responsive handling */
+  @media (max-width: 768px) {
+    .users {
+      width: 100%;
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  
+    thead td, td {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    table {
+      font-size: 13px;
+    }
+  
+    thead td, td {
+      padding: 6px;
+    }
+  }
+  
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  thead {
+    background: #007bff;
+    color: white;
+    text-align: left;
+  }
+
+  thead td {
+    padding: 12px;
+    font-weight: bold;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+
+  tbody tr:hover {
+    background: #f1f1f1;
+  }
+
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+
+ 

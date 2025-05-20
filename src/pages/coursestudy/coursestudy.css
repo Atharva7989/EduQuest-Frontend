@@ -1,0 +1,35 @@
+
+
+.course-study-page {
+  width: 300px;
+  height: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: auto; 
+  margin-top: 30px;
+  margin-bottom: 46px;
+}
+
+@media (max-width: 480px) {
+  .course-study-page {
+    width: 95%; 
+    padding: 15px; 
+  }
+
+  .course-study-page h2 {
+    font-size: 20px;
+  }
+
+  .course-study-page h4,
+  .course-study-page h5 {
+    font-size: 16px;
+  }
+
+  .course-study-page img {
+    width: 90%; 
+    max-width: 250px;
+  }
+}
